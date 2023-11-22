@@ -1,0 +1,10 @@
+^D:\PROGRAMS_EXTEND\FLUTTER\PROJECTS\SHOPPING_LIST\BUILD\WINDOWS\CMAKEFILES\EEBBAB0075F8035ECE4AC1A1DEBA685A\GENERATE.STAMP.RULE
+setlocal
+"D:\Visual Studio\Base\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/Programs_extend/Flutter/Projects/shopping_list/windows -BD:/Programs_extend/Flutter/Projects/shopping_list/build/windows --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Programs_extend/Flutter/Projects/shopping_list/build/windows/shopping_list.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
